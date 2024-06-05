@@ -1,7 +1,17 @@
 #include "PrintPars.h"
 
-void printPersonPars(Person p)
+void printPersonAge(Person p)
+{
+	
+	cout << "возраст: " << p.age << endl;
+}
+
+void printPersonFIO(Person p)
 {
 	cout << "ФИО:" << p.name << " " << p.secondname << " " << p.surname << "." << endl;
-	cout << "возраст: " << p.age << endl;
+}
+
+void printPersonWeight(Person p)
+{
+	cout << "вес: " << p.weight << endl;
 }
